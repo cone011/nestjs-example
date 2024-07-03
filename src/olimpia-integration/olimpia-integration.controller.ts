@@ -9,11 +9,6 @@ export class OlimpiaIntegrationController {
     private readonly olimpiaIntegrationService: OlimpiaIntegrationService,
   ) {}
 
-  @Get()
-  testing() {
-    return this.olimpiaIntegrationService.testing();
-  }
-
   @Get(':document')
   @Auth(ValidRoles.admin, ValidRoles.superUser)
   findOne(@Param('document') document: string) {
