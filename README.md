@@ -4,6 +4,8 @@
 
 # ITTI Nest Example API
 
+Obs: Si no tenes yarn instalado npm install --global yarn, para verificar si instalo todo yarn --version
+
 1. Clonar proyecto
 2. `yarn install`
 3. Clonar el archivo `.env.template` y renombrarlo a `.env`

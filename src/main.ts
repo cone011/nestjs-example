@@ -11,17 +11,18 @@ async function bootstrap() {
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
+      forbidNonWhitelisted: true,
     }),
   );
 
   const config = new DocumentBuilder()
-    .setTitle('Itti Nest API')
-    .setDescription('Itti Nest endpoints')
+    .setTitle('Example Nest API')
+    .setDescription('Example Nest endpoints')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
 
-  await app.listen(3000);
+  await app.listen(process.env.PORT);
 }
 bootstrap();
