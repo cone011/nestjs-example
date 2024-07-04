@@ -4,7 +4,7 @@
 
 # ITTI Nest Example API
 
-Obs: Si no tenes yarn instalado npm install --global yarn, para verificar si instalo todo yarn --version
+Obs: Si no tenes yarn instalado `npm install --global yarn`, para verificar si instalo todo corectamente `yarn --version`
 
 1. Clonar proyecto
 2. `yarn install`
