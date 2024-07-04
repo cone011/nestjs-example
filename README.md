@@ -2,7 +2,7 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
-# ITTI Nest Example API
+# Nest Example API
 
 Obs: Si no tenes yarn instalado `npm install --global yarn`, para verificar si instalo todo corectamente `yarn --version`
 
