@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nestjs-example
+  annotations:
+    github.com/project-slug: cone011/nestjs-example
+spec:
+  type: other
+  lifecycle: unknown
+  owner: backstage testing
